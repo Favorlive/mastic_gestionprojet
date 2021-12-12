@@ -1,0 +1,56 @@
+\chapter{Analyse des besoins}
+Dans le cadre du projet de la mise en place de bornes interactives sur le campus du SOLBOSCH afin de guider les étudiants et visiteurs de l’ULB, il est nécessaire d’identifier clairement les besoins fonctionnels souhaités par les cibles identifiées au préalable. Étant nous-même des étudiants du l’ULB ayant déjà été confronté à différents problèmes liés à la problématique que soulève le projet. Dès lors, il a été logique de se remémorer les difficultés encourues dans le passé afin d’en faire ressortir des besoins fonctionnels que notre projet se devra de contenir pour satisfaire les utilisateurs cibles. 
+Nous allons également explorer les besoins des autres utilisateurs. 
+
+Notons que la définition de ces besoins se fait généralement par le biais d'un analyste métier qui va pouvoir identifier spécifiquement ce dont les utilisateurs et l'université à besoin. Un questionnaire en ligne pourrait être envoyés aux personnes clefs en charge de la communication universitaires et également aux étudiants. Un groupe de travail pour définir les besoins pourrait également être mis en place.
+
+Un analyste technique pourrait également intervenir pour proposer la fonctionnalité qui répond le plus proche possible du besoin.
+
+Nous avons fait l'exercice de répertorier les principaux besoins des utilisateurs ci-après. 
+
+\section{Quelques besoins d'utilisateurs finaux}
+\subsection{Les nouveaux étudiants}
+
+\begin{itemize}
+\item Découvrir le campus: les nouveaux étudiants ne connaissent pas le campus et les nombreux bâtiments que comportent l'université. Ils se posent beaucoup de questions avant de venir sur place et cherchent notamment des renseignements dans les brochures et sur le site. Des journées d'accueils par les facultés sont souvent organisées durant les premiers jours de la rentrée; seulement l'ensemble des nouveaux étudiants ne pourront pas y assister. Les bornes interactives pourraient pallier à cela et fournir un bons nombres d'indications et d'informations aux nouveaux étudiants. 
+
+\end{itemize}
+
+
+\subsection{Etudiants lambda}
+De manière générale et durant l'année, l'étudiant aura des besoins auxquels la borne pourra répondre. 
+\begin{itemize}
+ 
+\item L'itinéraire vers le local de cours: durant l'année académique, les étudiants s'informent des horaires via l'application Gehol. Cependant, l'application ne leur indique pas l'itinéraire pour se rendre aux bâtiment. Il faut bien souvent sortir de l'application pour chercher la carte du campus, chercher le bâtiment du campus, la porte, l'étage, la salle, etc. 
+\item Rester informés: Les étudiants ont en outre besoin de s'informer et prendre connaissance des communications universitaires.
+\end{itemize}
+
+
+\subsection{Personnel universitaire}
+\begin{itemize}
+    \item Communiquer vers les étudiants (ou vers les visiteurs extérieurs): le principal besoin est de pouvoir communiquer efficacement aux étudiants. Les bornes pourront avoir un espace "valve" où des informations importantes seraient affichées.
+
+
+\item {Aider les étudiants à se repérer et à trouver leur horaire}: proposer un outil interactif pour aiguiller les étudiants vers le bon bâtiment est un des besoin de la faculté. En effet, si les étudiants ne savent pas où aller, cela perturberait le fonctionnement académique. Il est nécessaire de pouvoir communiquer les informations de temps et de lieux des cours donnés. 
+
+
+\item {Offrir aux étudiants des services}: ce besoin pourrait être couvert par l'analyste technique. En effet, divers opérateurs de services proposent des API et des web-services accessibles à tout support informatique. Par exemple, la borne pourrait communiquer avec les opérateurs de transport pour donner les horaires de tram ou de bus pour se rendre aux autres campus de l'université (Solbosh, Plaine, Flagey, etc.). 
+\end{itemize}
+
+
+
+\subsection{Les visiteurs externes}
+\begin{itemize}
+    \item {Se repérer et trouver le local}: la borne doit être la plus simple possible pour les personnes qui ne viendraient que ponctuellement. Pensons notamment aux personnes qui assistent aux conférences organisés par l'université, mais qui ne sont ni étudiants, ni membre du personnel. Dans ce cas, l'information doit être accessible rapidement, sans informations superflues. Une solution possible serait de proposer des profils dès qu'on allume la borne. L'un des profils serait visiteurs externes qui ne proposerait que des fonctionnalités de base (carte, itinéraires, informations sur les évènements, horaires). 
+\item {Prendre connaissance des actualités et ou évènements de l'Université}: un volet purement d'information pourrait être développé dans l'écran à destination des visiteurs externes avec les futures conférences, des synopsis d'articles scientifiques intéressants pour le visiteur, etc. 
+\end{itemize}
+
+\section{Traduction de ces besoins en use cases et représentation}
+Nous avons identifié les besoins principaux. Il peut être très utile de représenter ces besoins dans une carte heuristique afin de modéliser les besoins. Cela permet également de baliser le projet et de prioriser les besoins. Des uses cases seront rédigés par l'analyste afin également de donner au projet les meilleurs pistes pour répondre aux besoin. 
+
+\section{MoSCOW}
+Un autre outil qui permettrait d'encadrer le développement du projet est la méthode MoSCOW. Cette méthode permet de donner un ordre de priorité plus important en mettant en avant les fonctionnalités indispensables pour le bon fonctionnement de l'application. Dans la table \ref{tb_moscow}, nous avons ajouté quelques fonctionnalités et avons attribué un ordre d'importance. Lorsque l'on entame véritablement les développements, le mieux est de trier ce tableau par ordre décroissant d'importance. 
+
+\begin{table}[H] \label{tb_moscow}
+\include{Tables/tb_moscow}
+\end{table}
